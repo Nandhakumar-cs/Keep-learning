@@ -1,0 +1,75 @@
+.navbar{
+    background-color:grey
+}
+.navbar-band{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#tamil{
+    color:yellow;
+    font-weight: bolder;
+}
+#tamil2{
+    color:aqua
+}
+.navbar-brand{
+    color:white;
+  
+}
+@media only screen and (max-width:350px) 
+{
+    #tamil{
+        font-size: 18px;
+    }
+    #image{
+        margin-top: 4rem;
+    }
+    #table{
+        margin-left: 30px;
+    }
+}
+@media only screen and (min-width:400px){
+#image{
+    margin-top: 5.5rem;
+ }
+#table{
+    margin-top: 10rem;
+}
+input{
+    width: 300px;
+
+    
+}
+}
+
+body{
+    margin-top: 5rem;
+}
+body{
+    background-color:white;
+}
+#sp{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color:skyblue;
+}
+#log{
+    display: block;
+    font-size: large;
+    font-weight: bolder;
+}
+#found{
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}#pers{
+    margin-top: 1.16rem;
+}
+#follow{
+    background:linear-gradient(red,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}

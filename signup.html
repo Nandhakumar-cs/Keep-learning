@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signing</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<header id="header">
+    <nav class="navbar fixed-top ">
+        <div class="container">
+            <!-- brand or logo -->
+          <a class="navbar-brand" href="#">Keep learning <span id="tamil">(தமிழ்)</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar">
+                    <!-- scrollimg inside -->
+                        <!-- offcanvas-header -->
+            <div class="offcanvas-header">
+              <h5 class="kl-tittle">keep learning  <span id="tamil2">(தமிழ்)</span></h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+            </div>
+                        <!-- offcanvas-body -->
+                            <div class="offcanvas-body align-items-start">
+                                  <ul class="navbar-nav flex-grow-1 pe-3 ">
+                                    <li><a id="sp" href="index.html">HOME</a></li>
+                                    <hr>
+                                    <li><a id="sp" href="course.html">COURSES</a></li>
+                                    <hr>
+                                    <li><a id="sp" href="about.html">ABOUT</a></li>
+                                    <hr>
+                                    <li><a id="sp" href="contact.html">CONTACT US</a></li>
+                                    <hr>
+                                  </ul>
+                            </div>
+                                    <!-- search button -->
+                                    <form class="d-flex mt-auto" role="search">
+                                      <input class="form-control me-2" type="search" placeholder="search">
+                                      <button class="btn btn-success" type="submit">search</button>
+                                    </form>
+                                    <!-- end of search button -->
+                        <!-- end of offcanvas body -->
+        
+                            <!-- end of header -->
+     
+          </div>
+        </div>
+      </nav>
+     </header>
+<body>
+    <div class="container" id="table">
+        <div class="h3 text-success">
+            fill the form to start your carreer........
+        </div>
+        <form action="signup.php" method="post">
+        <table class="table table-bordered table-hover text-center bg-light border-dark" id="table2">
+            <tr>
+                <th colspan="2" class="text-center ">
+                    STUDENT DETAILS
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    NAME 
+                </td>
+                <td>
+                    <input type="text" name="name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    MOBILE NUMBER
+                </td>
+                <td>
+                    <input type="text" name="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    GENDER
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="m">male
+                    <input type="radio" name="gender" value="f">female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    DOB
+                </td>
+                <td>
+                    <input type="date" name="date">
+                </td>
+            </tr>
+                <tr>
+                    <td>
+                        EMAIL 
+                    </td>
+                    <td>
+                        <input type="email" name="pic">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        PASSWORD
+                    </td>
+                    <td>
+                        <input type="password" name="pass">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="submit" name="submit">
+                    </td>
+                </tr>
+        </table>
+        </form>
+    </div>
+</body>
+<script src="jquery.min.js"></script> 
+<script src="bootstrap.min.js"></script>
+</html>

@@ -1,0 +1,39 @@
+.navbar{
+    background-color: grey;
+}
+#tamil2{
+    color: cyan;
+}
+#tamil{
+    color:yellow;
+
+}
+.navbar-brand{
+    color: white;
+}
+#sp{
+    text-decoration: none;
+    color: white;
+}
+#toop{
+    margin-top: 7rem;
+}
+@media only screen and (min-width:400px)
+{
+#toop{
+    padding-left: 5rem;
+}
+#sig{
+    display: flex;
+    margin-left: 15rem;
+}
+.btn{
+    margin-left: 1rem;
+}
+}
+@media only screen and (max-width:400px) {
+    .btn{
+        margin-left: 5rem;
+        margin-top: 0.5rem;
+    }    
+}
