@@ -1,6 +1,6 @@
 <html>
 <body>
-<a href="LearningStar.unaux.com">
+<a href="nandhakumar.github.io/keep-learn/">
   click to see my website
 </a>
 </body>
